@@ -2,20 +2,21 @@
   <div id="app">
     <v-app dark>
       <NaviBar />
-      <my-profile />
+      <router-view />
     </v-app>
+    <Footer />
   </div>
 </template>
 
 <script>
 import NaviBar from '@/components/NaviBar.vue'
-import MyProfile from '@/components/MyProfile.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     NaviBar,
-    MyProfile
+    Footer
   },
   mounted () {
   },

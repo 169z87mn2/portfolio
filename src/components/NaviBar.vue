@@ -1,6 +1,6 @@
 <template>
-  <header>
-    <v-toolbar dark>
+  <header class="header">
+    <v-toolbar>
       <v-toolbar-title class="white--text">169z87mn.xyz</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
@@ -18,4 +18,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.header {
+  min-height: 6%
+}
+</style>

@@ -17,7 +17,11 @@ import Vuetify from '@/../node_modules/vuetify'
 import '@/../node_modules/vuetify/dist/vuetify.min.css'
 import '@/../node_modules/material-design-icons-iconfont/dist/material-design-icons.css'
 
+// Vue social sharing
+import SocialSharing from 'vue-social-sharing'
+
 Vue.use(Vuetify)
+Vue.use(SocialSharing)
 
 Vue.config.productionTip = false
 
